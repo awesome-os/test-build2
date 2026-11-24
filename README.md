@@ -102,3 +102,10 @@ real    0m2.710s
 user    0m0.674s
 sys     0m0.395s
 ```
+
+## Quick Start (Windows / Linux / macOS)
+
+```sh
+# Clone & enter repository (all platforms)
+git clone https://github.com/awesome-os/test-build2.git && cd test-build2
+```

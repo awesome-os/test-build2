@@ -109,3 +109,13 @@ sys     0m0.395s
 # Clone & enter repository (all platforms)
 git clone https://github.com/awesome-os/test-build2.git && cd test-build2
 ```
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/test-build2@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://cpp/test-build2?from=repository://github.com/awesome-os/test-build2@main"
+```
